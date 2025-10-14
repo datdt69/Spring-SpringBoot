@@ -7,7 +7,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class MainV2 {
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
-        PdfGenenrator pdfGenerator = context.getBean("thanhThao",PdfGenenrator.class);
+        PdfGenenrator pdfGenerator = context.getBean("testHehe",PdfGenenrator.class);
         pdfGenerator.generatePdf("952");
     }
 }
