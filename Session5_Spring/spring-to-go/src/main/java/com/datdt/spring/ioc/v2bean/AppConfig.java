@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 
 public class AppConfig {
     @Bean
-    public PdfGenenrator pdfGenerator() {
+    public PdfGenenrator thanhThao() {
         return new PdfGenenrator();
     }
 }
