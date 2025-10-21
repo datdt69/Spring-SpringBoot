@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class ContractService {
    private PdfGenerator pdfGenerator;
-   @Autowired
+
    public ContractService(PdfGenerator pdfGenerator) {
        this.pdfGenerator = pdfGenerator;
    }
